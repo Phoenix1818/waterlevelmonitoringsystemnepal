@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Level Monitoring System - Nepal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Water Level Monitoring System</h1>
+        <p>Introducing a smart way to monitor your water levels in Nepal. Preorder now for the 2025 launch!</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#preorder">Preorder</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the Product</h2>
+        <p>Our water level monitoring system helps you check and manage water levels in your tank remotely via your phone. Launching in 2025!</p>
+        
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="features-container">
+            <div class="features-text">
+                <ul>
+                    <li>Monitor water levels in real-time</li>
+                <li>Receive notifications on your phone</li>
+                <li>Easy to install and maintain</li>
+                <li>Compatible with 1000L water tanks and above</li>
+                <li>Reliable ultrasonic sensor technology</li>
+                <li>Affordable and cost-effective</li>
+                <li>Works seamlessly with smartphones</li>
+                <li>Long battery life and low power consumption</li>
+                <li>Weather-resistant and durable design</li>
+                </ul>
+            </div>
+            <div class="features-image">
+                <img src="WhatsApp Image 2024-11-22 at 18.58.23.jpeg" alt="Water Level Monitoring System">
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <h2>How Our Technology Works</h2>
+        <p>Our technology uses advanced ultrasonic sensors to measure the water level directly through your smartphone. It's designed to be reliable, easy to use, and affordable, providing real-time data and peace of mind for managing your water supply efficiently.</p>
+        
+        <div class="how-it-works-container">
+            <div class="step">
+                <h3>Step 1: Installation</h3>
+                <p>Our ultrasonic sensors are easily installed on top of your water tank, offering a hassle-free setup process.</p>
+            </div>
+            <div class="step">
+                <h3>Step 2: Real-Time Monitoring</h3>
+                <p>The sensors send accurate water level data to your smartphone, allowing you to monitor the water level anytime, anywhere.</p>
+            </div>
+            <div class="step">
+                <h3>Step 3: Notifications</h3>
+                <p>Get instant notifications when the water level is too high or low, ensuring you never run out or overflow your tank.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="preorder">
+        <h2>Preorder Now</h2>
+        <p>Be among the first to receive the Water Level Monitoring System when it launches in 2025!</p>
+        <form id="preorderForm" action="https://formspree.io/f/mvgoqybj" method="POST" onsubmit="handleFormSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="quantity">Quantity :</label>
+            <input type="text" id="quantity" name="quantity" required>
+
+            <label for="description">Additional Information:</label>
+            <textarea id="description" name="description" placeholder="Write anything extra or ask questions..." rows="4"></textarea>
+
+            <button type="submit">Preorder Now</button>
+        </form>
+        <div id="successMessage" style="display: none;">
+            <p>Thank you for your preorder! You will be among the first to receive the system when it launches in 2025!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Water Level Monitoring System. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:waterlevelmonitorsystemnepal@gmail.com">waterlevelmonitorsystemnepal@gmail.com</a></p>
+        <div>
+            <button id="wishlistBtn">Add to Wishlist</button>
+            <span id="wishlistCount">0</span> people added to wishlist
+            <br>
+            <button id="likeBtn">Like</button>
+            <span id="likeCount">0</span> people liked this
+        </div>
+    </footer>
+</body>
+</html>
